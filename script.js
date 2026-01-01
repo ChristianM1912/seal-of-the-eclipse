@@ -1,5 +1,5 @@
 let currentPage = 1;
-const totalPages = 3; // ANPASSEN, wenn du mehr Seiten hast
+const totalPages = 10; // ANPASSEN, wenn du mehr Seiten hast
 
 const comicPage = document.getElementById("comic-page");
 
@@ -15,5 +15,5 @@ document.addEventListener("click", function(event) {
     if (currentPage < totalPages) currentPage++;
   }
 
-  comicPage.src = `pages/page${currentPage}.jpg`;
+  comicPage.src = `pages/page${currentPage}.png`;
 });
