@@ -1,5 +1,5 @@
 let currentPage = 1;
-const totalPages = 10; // ANPASSEN, wenn du mehr Seiten hast
+const totalPages = 6; // ANPASSEN, wenn du mehr Seiten hast
 
 const comicPage = document.getElementById("comic-page");
 
