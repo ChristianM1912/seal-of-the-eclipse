@@ -26,7 +26,7 @@ fullscreenBtn.style.cursor = "pointer";
 document.body.appendChild(pageIndicator);
 document.body.appendChild(fullscreenBtn);
 
-// ---------- FUNCTIONS ----------
+// ---------- FUNCTIONS ---------------
 
 function updatePageIndicator() {
   pageIndicator.textContent = `Seite ${currentPage}`;
@@ -82,3 +82,4 @@ fullscreenBtn.addEventListener("click", function () {
 
 // ---------- INIT ----------
 updatePageIndicator();
+
