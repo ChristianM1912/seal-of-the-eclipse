@@ -73,7 +73,7 @@ document.addEventListener("click", function (event) {
 fullscreenBtn.addEventListener("click", function () {
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen();
-    fullscreenBtn.textContent = "⤫ Vollbild verlassen";
+    fullscreenBtn.textContent = "⤫";
   } else {
     document.exitFullscreen();
     fullscreenBtn.textContent = "⛶ Vollbild";
@@ -82,4 +82,5 @@ fullscreenBtn.addEventListener("click", function () {
 
 // ---------- INIT ----------
 updatePageIndicator();
+
 
